@@ -19,3 +19,11 @@ h1
 	border-left: 6px;
 }
 
+img
+{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top center;
+	box-shadow: 4px 4px 0px grey;
+}
+
