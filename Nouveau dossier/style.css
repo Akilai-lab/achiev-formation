@@ -1,29 +1,32 @@
-h2 p ul 
-{
-	color: white;
-}
-ul
-{
-	text-align: justify;
+@font-face {
+	font-family: 'big-shoulders';
+	src: url('big-shoulders.ttf');
 }
 
 body
 {
-	background-image: url(fdcvcss.png);
+	background-image: url("fd-csscv-vertical1.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: top bottom;
 }
+
+h1, h2, p, ul 
+{
+	color: white;
+	/*police personnalisée font-face */
+}
+
 
 h1
 {
 	text-align: center;
-	border-bottom: 4px;
-	border-left: 6px;
+	border: 1px white solid;
+	text-shadow: bottom 1px;
 }
 
-img
+a
 {
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: top center;
-	box-shadow: 4px 4px 0px grey;
+	box-shadow: 4px 4px 4px #afa2a2
 }
 
