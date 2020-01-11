@@ -28,6 +28,7 @@ body
 	background-repeat: no-repeat;
 }
 
+
 h1
 {
 	border-left: 6px #4e0505 double;
@@ -35,7 +36,8 @@ h1
 }
 
 a
-{
+{ 
+	border:2px #4e0505 double;
 	text-shadow: 2px 4px 4px black;
 }
 
