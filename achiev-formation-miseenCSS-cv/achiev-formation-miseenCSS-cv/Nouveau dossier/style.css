@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'big-shoulders';
+	src: url('big-shoulders.ttf');
+}
+
+body
+{
+	background-image: url("fd-csscv-vertical1.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: top bottom;
+}
+
+h1, h2, p, ul 
+{
+	color: white;
+	/*police personnalisée font-face */
+}
+
+
+h1
+{
+	text-align: center;
+	border: 1px white solid;
+	text-shadow: bottom 1px;
+}
+
+a
+{
+	box-shadow: 4px 4px 4px #afa2a2
+}
+
