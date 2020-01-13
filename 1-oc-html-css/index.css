@@ -1,0 +1,70 @@
+h2, p, ul
+{
+	font-size: 16px;
+	color: #5e0000;
+	font-family: Nobile;
+}
+
+@font-face
+{
+	font-family: Nobile;
+	src: url(./assets/Nobile.ttf);
+}
+h1
+{
+	font-family: Nobile;
+	font-size: 24px;
+	color: #5e0000;
+	text-align: center;
+}
+h2
+{
+	text-align: justify;
+}
+
+body
+{
+	background-image: url("./assets/image/img-fd-cv.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+
+
+h1
+{
+	border-left: 6px #4e0505 double;
+	border-bottom: 4px #4e0505 double;
+}
+
+a
+{ 
+	border:2px #4e0505 double;
+	text-shadow: 2px 4px 4px black;
+}
+
+#bloc-page/*valeur absolue*/
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 1px solid black;
+	width:10%;
+	height: 100%;
+	background-color: white
+	color:maroon;
+}
+
+#bloc-page
+{
+	background: white;
+	height: 100%;
+	width: 30%;
+}
+
+article /*3 blocs alignés, sur une ligne, en relative, en %*/
+{
+position: relative;
+left: 0%;
+top: 0%;
+bottom: 0%;
+}
