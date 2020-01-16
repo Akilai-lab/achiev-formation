@@ -2,12 +2,12 @@ h2, p, ul
 {
 	font-size: 16px;
 	color: #5e0000;
-	font-family: Nobile;
+	font-family: Nobile, sans-serif;
 }
 
 @font-face
 {
-	font-family: Nobile;
+	font-family: Nobile, sans-serif;
 	src: url(./assets/Nobile.ttf);
 }
 h1
@@ -25,8 +25,9 @@ h2
 body
 {
 	background-image: url("./assets/image/img-fd-cv.jpg");
+	background-size: 100% 100%;
 	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 }
 
 
