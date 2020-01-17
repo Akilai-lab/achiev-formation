@@ -1,15 +1,12 @@
-h2, p, ul
-{
-	font-size: 16px;
-	color: #5e0000;
-	font-family: Nobile, sans-serif;
-}
-
 @font-face
 {
-	font-family: Nobile, sans-serif;
-	src: url(./assets/Nobile.ttf);
+	font-family: "Nobile";
+	src: local(./assets/Nobile-Regular.ttf);
+	font-weight: bold;
+	src: local(./assets/Nobile-Regular.ttf/Nobile-Bold.ttf);
+	
 }
+
 h1
 {
 	font-family: Nobile;
@@ -17,6 +14,15 @@ h1
 	color: #5e0000;
 	text-align: center;
 }
+
+
+p, ul , h2
+{
+	font-family: Nobile;
+	font-size: 16px;
+	color: #5e0000;
+}
+
 h2
 {
 	text-align: justify;
