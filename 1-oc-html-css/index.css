@@ -1,9 +1,14 @@
 @font-face
 {
-	font-family: Nobile;
-	src: url(Nobile-Regular.ttf);
-	font-weight: Nobile-Bold;
-	src: url(Nobile-Bold.ttf);
+	font-family: "Nobile";
+	src: url(./assets/Nobile/Nobile-Regular.ttf);
+}
+
+@font-face
+{
+	font-family: "Nobile";
+	font-weight: bold;
+	src: url(./assets/Nobile/Nobile-Bold.ttf);
 }
 h2, p, ul
 {
