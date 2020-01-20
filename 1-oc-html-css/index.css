@@ -55,6 +55,14 @@ section
 	margin-left: 208px;
 	width: calc(100% - 208px);
 }
+ #mes_blocs
+ {
+ 	display: flex;
+	width: 90%;
+	justify-content: space-around;
+	align-items: flex-start; 
+	flex-direction: row;
+ }
 
 h1
 {
