@@ -37,6 +37,7 @@ h1
 	text-align: center;
 	margin-top: 10%;
 }
+
 h2
 {
 	text-align: justify;
@@ -55,14 +56,14 @@ section
 	margin-left: 208px;
 	width: calc(100% - 208px);
 }
- #mes_blocs
- {
- 	display: flex;
+#mes_blocs
+{
+	display: flex;
 	width: 90%;
 	justify-content: space-around;
-	align-items: flex-start; 
+	align-items: flex-start;
 	flex-direction: row;
- }
+}
 
 h1
 {
@@ -75,4 +76,3 @@ a
 	border:2px #4e0505 double;
 	text-shadow: 2px 4px 4px black;
 }
-
