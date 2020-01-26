@@ -21,6 +21,17 @@ header
 	border: 1px solid black;
 }
 
+@media all and (max-width: 1280px) 
+{
+	header
+	{
+		border: none;
+		left: auto;
+		top: auto;
+		width: auto;
+	}
+}
+
 
 }
 
@@ -73,7 +84,7 @@ section
 	#mes_blocs
 	{
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	flex-direction: column;
 	width: auto;
 	}
