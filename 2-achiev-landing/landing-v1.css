@@ -1,0 +1,235 @@
+.Rectangle
+{
+	width: 1024px;
+	height: 75px;
+	background-color: #4a4a4a;
+}
+
+.Bitmap 
+{
+	width: 89px;
+	height: 107px;
+}
+
+.Oval 
+{
+	width: 150px;
+	height: 150px;
+	background-color: #4a4a4a; 	
+}
+
+.Rectangle 
+{
+	width: 1024px;
+	height: 399px;
+	background-color: rgba(74, 74, 74, 0.5);
+}
+
+.Lorem-ipsum-dolor-si 
+{
+	width: 1024px;
+	height: 241px;
+	font-family: Montserrat;
+	font-size: 36px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+
+.Desktop 
+{
+	width: 1024px;
+	height: 1925px;
+	background-color: #f1f1f1;
+}
+
+.Qui-sommes-nous- 
+{
+	width: 357px;
+	height: 64px;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #d4a23d;
+}
+
+.Lorem-ipsum-dolor-si 
+{
+	width: 924px;
+	height: 256px;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000000;
+}
+
+.Rectangle 
+{
+	width: 1024px;
+	height: 433px;
+	background-color: #ffffff;
+}
+.Nos-realisation 
+{
+	width: 357px;
+	height: 64px;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000000;
+}
+
+.Rectangle 
+{
+	width: 268px;
+	height: 185px;
+	border: solid 1px #979797;
+	background-color: #d8d8d8;
+}
+
+.Voir-plus 
+{
+	width: 139px;
+	height: 24px;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000000;
+}
+
+.Triangle 
+{
+	width: 25px;
+	height: 22px;
+	background-color: #d4a23d;
+}
+
+.Nous-contacter 
+{
+	width: 357px;
+	height: 64px;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #d4a23d;
+}
+
+.Nom- 
+{
+	width: 237px;
+	height: 22px;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.Rectangle 
+{
+	width: 364px;
+	height: 43px;
+	border-radius: 8px;
+	border: solid 1px #4a4a4a;
+	background-color: #ffffff;
+}
+
+.Adresse-email- 
+{
+	width: 237px;
+	height: 22px;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.Rectangle 
+{
+	width: 364px;
+	height: 43px;
+	border-radius: 8px;
+	border: solid 1px #4a4a4a;
+	background-color: #ffffff;
+}
+
+.Message- 
+{
+	width: 237px;
+	height: 22px;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.Rectangle
+{
+	width: 924px;
+	height: 157px;
+	border-radius: 8px;
+	border: solid 1px #4a4a4a;
+	background-color: #ffffff;
+}
+
+.Rectangle
+{
+	width: 1024px;
+	height: 59px;
+	background-color: #4a4a4a;
+}
+
+.Achiev-2020-Tous
+{
+width: 924px;
+height: 57px;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #ffffff;
+}
+
