@@ -25,10 +25,7 @@ header
 {
 	header
 	{
-		border: none;
-		left: auto;
-		top: auto;
-		width: auto;
+		display: none;
 	}
 }
 
