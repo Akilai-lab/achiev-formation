@@ -1,5 +1,18 @@
+#En-tete
+{
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0;
+	margin-top: 0;
+}
+
 .Rectangle
 {
+	position: absolute;
+	margin-top: 0;
+	margin-left: 0;
+	z-index: 1;
 	width: 1024px;
 	height: 75px;
 	background-color: #4a4a4a;
@@ -7,15 +20,26 @@
 
 .Bitmap 
 {
+	position: absolute;
+	margin-top: 0;
+	margin-left: 30%;
+	z-index: 3;
 	width: 89px;
 	height: 107px;
 }
 
 .Oval 
 {
+	position: absolute;
+	margin-top: 0;
+	margin-left: 30%;
+	z-index: 2;
 	width: 150px;
 	height: 150px;
-	background-color: #4a4a4a; 	
+	background-color: #4a4a4a; 
+	-webkit-border-radius: 110px / 110px;
+    -moz-border-radius:    110px / 110px; 
+    border-radius:         110px / 110px; 	
 }
 
 .Rectangle 
