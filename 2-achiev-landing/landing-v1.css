@@ -1,3 +1,10 @@
+.Desktop 
+{
+	width: 1024px;
+	height: 1925px;
+	background-color: #f1f1f1;
+}
+
 #En-tete
 {
 	display: block;
@@ -42,14 +49,14 @@
     border-radius:         110px / 110px; 	
 }
 
-#Encadré .Rectangle img 
+#Encadré .Rectangleimg img 
 {
 	position: absolute;
 	z-index: 1;
 	width: 1024px;
 	height: 399px;
 	background-color: rgba(74, 74, 74, 0.5);
-	opacity: 90%;
+	margin-top: 5.5%;
 }
 
 #Encadré .Lorem-ipsum-dolor-si 
@@ -67,26 +74,16 @@
 	letter-spacing: normal;
 	text-align: center;
 	color: #ffffff;
-	margin-top: 8%;
-
+	margin-top: 18%;
 }
 
-.Desktop 
-{
-	width: 1024px;
-	height: 1925px;
-	background-color: #f1f1f1;
-}
 
-#text-principal
-{
-	display: block;
-	margin-top: 50%;
-	justify-content: center;
-}
+
 .Qui-sommes-nous- 
 {
-	width: 357px;
+	position: absolute;
+	z-index: 6;
+	width: 400px;
 	height: 64px;
 	font-family: Montserrat;
 	font-size: 30px;
@@ -97,12 +94,13 @@
 	letter-spacing: normal;
 	text-align: center;
 	color: #d4a23d;
-	margin-left: 26%;
-	margin-top: 27%;
+	margin-left: 23.5%;
+	margin-top: 33.2%;
 }
 
 .Lorem-ipsum-dolor-si 
-{
+{	position: absolute;
+	z-index: 7;
 	width: 924px;
 	height: 256px;
 	font-family: Montserrat;
@@ -114,16 +112,14 @@
 	letter-spacing: normal;
 	text-align: center;
 	color: #000000;
+	margin-top: 39%;
+	margin-left: 4%;
 }
 
-.Rectangle 
+.Nos-realisations p
 {
-	width: 1024px;
-	height: 433px;
-	background-color: #ffffff;
-}
-.Nos-realisation 
-{
+	position: absolute;
+	z-index: 9;
 	width: 357px;
 	height: 64px;
 	font-family: Montserrat;
@@ -135,17 +131,48 @@
 	letter-spacing: normal;
 	text-align: center;
 	color: #000000;
+	margin-top: 59%;
+	margin-left: 23%;
 }
 
-.Rectangle 
+#Rectangles
 {
+	display: flex;
+	margin-top: 67%;
+	margin-left: 50px;
+	position: absolute;
+	z-index: 10;
+}
+
+.Rectangle-2 
+{	
 	width: 268px;
 	height: 185px;
 	border: solid 1px #979797;
 	background-color: #d8d8d8;
 }
 
-.Voir-plus 
+#Rectangle-1
+{
+	position: absolute;
+	z-index: 8;
+	width: 1024px;
+	height: 433px;
+	background-color: #ffffff;
+	margin-top: 55%;
+	margin-left: 0;
+	border: 1px solid black; /*temporaire*/
+}
+
+#Voir-plus
+{
+	position: absolute;
+	z-index: 10;
+	margin-top: 80%;
+	margin-left: 30.5%;
+}
+
+#Voir-plus p
 {
 	width: 139px;
 	height: 24px;
@@ -162,11 +189,22 @@
 
 .Triangle 
 {
+	position: absolute;
+	z-index: 11;
 	width: 25px;
 	height: 22px;
 	background-color: #d4a23d;
+	margin-top: 84%;
+	margin-left: 34.5%;
 }
 
+#Encadré_3
+{
+	position: absolute;
+	z-index: 11;
+	margin-top: 87%;
+	margin-right: 0;
+}
 .Nous-contacter 
 {
 	width: 357px;
@@ -180,6 +218,8 @@
 	letter-spacing: normal;
 	text-align: center;
 	color: #d4a23d;
+	margin-left: 23%;
+	padding-top: 23px;
 }
 
 .Nom- 
@@ -194,23 +234,19 @@
 	line-height: normal;
 	letter-spacing: normal;
 	color: #000000;
+	padding-left: 50px; 
 }
 
-#Encadré_3 .Rectangle 
+.Rectangle-3 
 {
 	width: 364px;
 	height: 43px;
 	border-radius: 8px;
 	border: solid 1px #4a4a4a;
 	background-color: #ffffff;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	margin-left: 50px;
 }
 
-#Encadré_3
-{
-	padding-bottom: 10%;
-}
 .Adresse-email- 
 {
 	width: 237px;
@@ -223,15 +259,7 @@
 	line-height: normal;
 	letter-spacing: normal;
 	color: #000000;
-}
-
-.Rectangle 
-{
-	width: 364px;
-	height: 43px;
-	border-radius: 8px;
-	border: solid 1px #4a4a4a;
-	background-color: #ffffff;
+	padding-left: 50px; 
 }
 
 .Message- 
@@ -246,18 +274,26 @@
 	line-height: normal;
 	letter-spacing: normal;
 	color: #000000;
+	padding-left: 50px; 
 }
 
-.Rectangle
+.Rectangle-4
 {
 	width: 924px;
 	height: 157px;
 	border-radius: 8px;
 	border: solid 1px #4a4a4a;
 	background-color: #ffffff;
+	margin-left: 50px;
 }
 
-.Rectangle
+footer
+{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.Rectangle-5
 {
 	width: 1024px;
 	height: 59px;
@@ -266,15 +302,15 @@
 
 .Achiev-2020-Tous
 {
-width: 924px;
-height: 57px;
-font-family: Montserrat;
-font-size: 15px;
-font-weight: 300;
-font-stretch: normal;
-font-style: normal;
-line-height: normal;
-letter-spacing: normal;
-color: #ffffff;
+	width: 924px;
+	height: 57px;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
