@@ -1,54 +1,56 @@
 @media all and (max-width: 1280px)
 {
-	section
+
+	#pied-de-page
 	{
-		flex-direction: column;
+		width: auto;
+	}
+
+	.rectangle-3
+	{
+		width: auto;
+	}
+
+	.rectangle-4
+	{
+		width: auto;
 	}
 
 	#en-tete
 	{
-		margin-left:0;
+		width: auto;
 	}
 
 	#en-tete h1
 	{
-		display: flex;
-		justify-content: center;
-		padding-left: 7%;
-		padding-top: 7%;
+		margin-top: 20%;
 	}
 
-	article
+	#partie2
 	{
 		width: auto;
+	}
+
+	.texte p
+	{
 		margin-left: 0;
 	}
 
-	#texte-principal
+	section
 	{
-		text-align: justify;
-	}
-	.texte p 
-	{
-		max-width: 68%;
-		margin-left: 0;
-		padding-bottom: 5%;
-	}
-
-	.qui-sommes-nous- h2
-	{
-		margin-left: 15%;
-	}
-
-	#rectangle-1 p
-	{
-		margin-left: 22%;
+		width: auto;
 	}
 
 }
+section
+{
+	width: 100%;
+}
+
 body
 {
 	background-color: #f1f1f1;
+	width: 100%;
 }
 
 .rectangle
@@ -92,7 +94,7 @@ h1
 	width: 250px;
 	height: 250px;
 	background-color: #4a4a4a;
-	border-radius: 150px / 150px;
+	border-radius: 130px / 130px;
 	margin-left: 40%;
 	margin-top: 0;
 }
@@ -101,16 +103,13 @@ h1
 {
 	position: absolute;
 	z-index: 2;
-	width: 70%;
-	height: 120px;
-	margin-top: 30%;
-	margin-left: 15%;
+	width: 60%;
+	margin-top: 15%;
+	margin-left: 20%;
 }
 
- h2 
+ .qui-sommes-nous h2 
 { 	
-	width: 400px;
-	height: 64px;
 	font-family: Montserrat;
 	font-size: 30px;
 	font-weight: 600;
@@ -121,18 +120,21 @@ h1
 	text-align: center;
 	color: #d4a23d;
 	margin-left: 50%;
+	padding-bottom: 20px;
 }
 
 #texte-principal
 {
 	width: 924px;
-	height: 210px;
+	height: 21px;
 	margin-bottom: 30%;
-	margin-right: 70%;
+}
+.texte
+{
+	margin-left: 30%;
 }
 .texte p 
 {	
-	width: 700px;
 	height: 100px;
 	font-family: Montserrat;
 	font-size: 18px;
@@ -147,7 +149,7 @@ h1
 	
 }
 
-#rectangle-1
+#partie2
 {
 	width: 100%;
 	height: 433px;
@@ -155,7 +157,7 @@ h1
 	border: 1px solid black; /*temporaire*/
 }
 
-p
+#partie2 p
 {
 	width: 357px;
 	height: 64px;
@@ -171,17 +173,14 @@ p
 	margin-left: 35%;
 }
 
-#rectangle2
+#cadre
 {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-#rectangle2
-{
-	width: 100%;
-}
-.rectangle-2
+
+.petit-cadre
 {	
 	width: 268px;
 	height: 185px;
@@ -209,13 +208,16 @@ p
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: center;
-	margin-left: 50%;
+	margin-left: 49%;
 	margin-top: 4%;
 }
 .triangle 
 {
-	width: 25px;
-	height: 22px;
+	width: 0;
+	height: 0;
+	border-left: 18px solid white;
+	border-right: 18px solid white;
+	border-top: 30px solid #d4a23d;
 	background-color: #d4a23d;
 }
 
@@ -235,6 +237,10 @@ p
 	margin-left: 38%;
 }
 
+.nom
+{
+	width: 0;
+}
 .nom p
 {
 	width: 237px;
@@ -250,6 +256,10 @@ p
 	color: #000000; 
 }
 
+.mail
+{
+	width: 0;
+}
 .mail p
 {
 	width: 237px;
@@ -265,6 +275,10 @@ p
 	color: #000000; 
 }
 
+.mess
+{
+	width: 0;
+}
 .mess p
 {
 	width: 237px;
@@ -289,9 +303,9 @@ p
 	background-color: #ffffff;
 }
 
-.Rectangle-4
+.rectangle-4
 {
-	width: 924px;
+	width: 100%;
 	height: 157px;
 	border-radius: 8px;
 	border: solid 1px #4a4a4a;
@@ -300,14 +314,14 @@ p
 
 .rectangle-5
 {
-	width: 1024px;
-	height: 59px;
+	width: auto;
+	height: 70px;
 	background-color: #4a4a4a;
 }
 
-.achiev-2020-Tous
+.rectangle-5 p
 {
-	width: 924px;
+	width: 300px;
 	height: 57px;
 	font-family: Montserrat;
 	font-size: 15px;
@@ -317,5 +331,8 @@ p
 	line-height: normal;
 	letter-spacing: normal;
 	color: #ffffff;
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-top: 20px;
 }
 
