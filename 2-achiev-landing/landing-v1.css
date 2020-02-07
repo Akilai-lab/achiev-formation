@@ -53,20 +53,48 @@
 	}
 
 }
+
 section
 {
 	width: 100%;
+}
+
+
+
+body
+{
+	font-family: montserrat;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	background-color: #f1f1f1;
+	width: 100%;
+}
+
+body p
+{
+	font-size: 16px;
+	font-weight: 300;
+}
+
+body h2
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+body h1
+{
+	font-size: 33px;
+	font-weight: 600;
+	text-align: center;
 }
 
 #header
 {
 	width: 100%;
 	height: 500px;
-}
-body
-{
-	background-color: #f1f1f1;
-	width: 100%;
 }
 
 .box
@@ -88,14 +116,6 @@ h1
 {
 	width: 100%;
 	height: 241px;
-	font-family: Montserrat;
-	font-size: 36px;
-	font-weight: 600;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: center;
 	color: #ffffff;
 	margin-top: 12%;
 }
@@ -126,14 +146,6 @@ h1
 
  .who h2 
 { 	
-	font-family: Montserrat;
-	font-size: 30px;
-	font-weight: 600;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: center;
 	color: #d4a23d;
 }
 
@@ -145,17 +157,8 @@ h1
 
 .text p 
 {	
-	width: 100%;
 	height: 120px;
-	font-family: Montserrat;
-	font-size: 18px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
 	text-align: center;
-	color: #000000;
 }
 
 #part2
@@ -170,14 +173,6 @@ h1
 {
 	width: 357px;
 	height: 64px;
-	font-family: Montserrat;
-	font-size: 30px;
-	font-weight: 600;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: center;
 	color: #000000;
 	margin-left: 35%;
 }
@@ -186,7 +181,6 @@ h1
 {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
 }
 
 .frame
@@ -199,17 +193,8 @@ h1
 
 .way-to p
 {
-	width: 139px;
-	height: 24px;
-	font-family: Montserrat;
-	font-size: 20px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
 	text-align: center;
-	color: #000000;
+	margin-bottom: 40px;
 }
 
 .way-to
@@ -233,74 +218,13 @@ h1
 #title h2
 {
 	width: 357px;
-	height: 64px;
-	font-family: Montserrat;
-	font-size: 30px;
-	font-weight: 600;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: center;
 	color: #d4a23d;
 	margin-left: 38%;
 }
 
-.name
-{
-	width: 0;
-}
-.name p
-{
-	width: 237px;
-	height: 22px;
-	font-family: Montserrat;
-	font-size: 18px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: justify;
-	color: #000000; 
-}
-
-.mail
-{
-	width: 0;
-}
 .mail p
 {
 	width: 237px;
-	height: 22px;
-	font-family: Montserrat;
-	font-size: 18px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: justify;
-	color: #000000; 
-}
-
-.mess
-{
-	width: 0;
-}
-.mess p
-{
-	width: 237px;
-	height: 22px;
-	font-family: Montserrat;
-	font-size: 18px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: justify;
-	color: #000000; 
 }
 
 .frame-small 
@@ -323,25 +247,12 @@ h1
 
 .final-frame
 {
-	width: auto;
 	height: 70px;
 	background-color: #4a4a4a;
 }
 
 .final-frame p
 {
-	width: 300px;
-	height: 57px;
-	font-family: Montserrat;
-	font-size: 15px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
 	color: #ffffff;
-	margin-left: 0;
-	margin-bottom: 0;
 	padding-top: 20px;
 }
-
