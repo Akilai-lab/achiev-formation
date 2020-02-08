@@ -70,6 +70,7 @@ body
 	letter-spacing: normal;
 	background-color: #f1f1f1;
 	width: 100%;
+	margin: 0;
 }
 
 body p
@@ -81,7 +82,6 @@ body p
 body h2
 {
 	font-size: 30px;
-	text-align: center;
 }
 
 body h1
@@ -94,52 +94,57 @@ body h1
 #header
 {
 	width: 100%;
-	height: 500px;
+	height: 75px;
 }
 
 .box
 {
 	width: auto;
-	height: 130px;
+	height: 75px;
 	background-color: #4a4a4a;
 }
 
-
-.box img
+.box-img
 {
 	width: 100%;
-	height: 350px;
-	margin-top: 10%;
+	height: 400px;
+}
+
+.box-img img
+{
+	background-color: rgba(74, 74, 74, 0.5);
+	width: 100%;
+	height: 399px;
 }
 
 h1 
 {
-	width: 100%;
-	height: 241px;
-	color: #ffffff;
-	margin-top: 12%;
+	position: relative;
+	bottom: 268px;
+	width: 60%;
+	left: 20%;
+	color: #ffffff
 }
-
-
-
-
 .round
 {
 	position: absolute;
-	z-index: 1;
-	width: 250px;
-	height: 250px;
+	top: 0;
+	height:150px; 
+}
+.round
+{
+	width: 150px;
+	height: 150px;
 	background-color: #4a4a4a;
 	border-radius: 130px / 130px;
-	margin-left: 40%;
+	left: 45%;
 	margin-top: 0;
 }
 
 .round img
 {
-	position: absolute;
-	z-index: 2;
-	width: 60%;
+	width: 89px;
+	height: 107px;
 	margin-top: 15%;
 	margin-left: 20%;
 }
@@ -147,6 +152,10 @@ h1
  .who h2 
 { 	
 	color: #d4a23d;
+	width: 357px;
+	margin-left: 334px;
+	margin-right: 333px;
+	margin-top: 28px;
 }
 
 #part1
@@ -166,7 +175,6 @@ h1
 	width: 100%;
 	height: 433px;
 	background-color: #ffffff;
-	border: 1px solid black; /*temporaire*/
 }
 
 #part2 p
@@ -177,10 +185,18 @@ h1
 	margin-left: 35%;
 }
 
+#part2 h2
+{
+	text-align: center;
+	margin-left: 334px;
+	margin-right: 333px;
+	padding-top: 59px;
+	padding-bottom: 7px;
+}
 #frames
 {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .frame
@@ -194,6 +210,7 @@ h1
 .way-to p
 {
 	text-align: center;
+	text-transform: uppercase;
 	margin-bottom: 40px;
 }
 
@@ -218,8 +235,10 @@ h1
 #title h2
 {
 	width: 357px;
+	height: 64px;
+	margin-left: 550px;
+	margin-top: 54px;
 	color: #d4a23d;
-	margin-left: 38%;
 }
 
 .mail p
@@ -255,4 +274,5 @@ h1
 {
 	color: #ffffff;
 	padding-top: 20px;
+	padding-left: 50px;
 }
