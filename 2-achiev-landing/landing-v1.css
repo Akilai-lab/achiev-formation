@@ -285,6 +285,16 @@ footer p
 		margin-left: 25px;
 	}
 
+	input#name
+	{
+		width: 100%;
+	}
+
+	input#mail
+	{
+		width: 100%;
+	}
+
 	footer p
 	{
 		padding-right: 25px;
