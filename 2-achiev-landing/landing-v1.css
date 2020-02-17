@@ -7,12 +7,14 @@ body
 }
 body p
 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 }
 body h2
 {
 	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
 }
 /** debut header**/
 #header
@@ -62,7 +64,7 @@ body h2
 }
 #box-img h1
 {
-	font-size: 33px;
+	font-size: 36px;
 	font-weight: 600;;
 	text-align: center;
 	color: #ffffff;
@@ -83,7 +85,6 @@ body h2
 { 	
 	color: #d4a23d;
 	width: 100%;
-	text-align: center;
 }
 .text p 
 {	
@@ -101,7 +102,6 @@ body h2
 }
 #about-us h2
 {
-	text-align: center;
 	padding-top: 59px;
 	padding-bottom: 7px;
 }
@@ -160,7 +160,6 @@ p a
 /**debut nous contacter**/
 #title h2
 {
-	text-align: center;
 	margin-top: 54px;
 	color: #d4a23d;
 }
