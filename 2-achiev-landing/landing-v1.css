@@ -136,13 +136,22 @@ body h2
 	text-align: center;
 	padding: 0;
 }
-p a
+
+#way-block
+{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+#way-block a
 {
 	text-transform: uppercase;
 	width: 100px;
 	text-align: center;
 	color: black;
 	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .way-to
 {
@@ -346,13 +355,14 @@ footer p
 	{
 		margin-top: 49px;
 	}
-	
+
 	.way-to
 	{
 		width: 0;
 		margin-top: 15px;
 		margin-left: 159px;
 		margin-bottom: 28px;
+		text-align: center;
 	}
 
 	#title form
