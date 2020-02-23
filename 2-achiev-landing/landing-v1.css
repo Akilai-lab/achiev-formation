@@ -144,7 +144,6 @@ p a
 }
 .way-to
 {
-	margin-left: 49%;
 	width: 0%;
 	border-left: 18px solid white;
 	border-right: 18px solid white;
@@ -222,6 +221,15 @@ footer p
 /**Pour le titre ( donc le layout ) tu peux meme mettre le double sur chacun pour moins large que le reste de la page encore**/
 @media all and (max-width: 680px)
 {
+	#header
+	{
+		height: 60px;
+	}
+	.box
+	{
+		height: 60px;
+	}
+
 	.round                
 	{
 		width: 100px;
@@ -250,6 +258,7 @@ footer p
 	#box-img
 	{
 		height: 475px;
+		margin-top: 0;
 	}
 
 	.layout
