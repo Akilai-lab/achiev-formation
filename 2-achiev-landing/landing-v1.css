@@ -116,6 +116,8 @@ body h2
 	display: flex;
 	justify-content: space-between;
 	height: 200px;
+	margin-right: 50px; 
+	margin-left: 50px;
 }
 .frame
 {	
@@ -305,6 +307,7 @@ footer p
 	#about-us h2
 	{
 		margin: 0;
+		padding-bottom: 20px;
 	}
 	
 
@@ -318,13 +321,12 @@ footer p
 	{
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		max-width: 270px;
 		height: 70%;
 		padding-left: 25px;
 		padding-right: 25px;
-		margin-left: 25px;
-		margin-right: 25px;
+		margin-left: 0;
+		margin-right: 0;
 	}
 	
 	.frame
