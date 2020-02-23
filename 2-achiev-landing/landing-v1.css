@@ -342,7 +342,6 @@ footer p
 		height: 100%;
 		margin-bottom: 10px;
 		flex-shrink: 0;
-		padding-right: calc(200px / 268px * 100%);
 	}
 
 	#way-block
