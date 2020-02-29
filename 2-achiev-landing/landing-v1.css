@@ -1,0 +1,363 @@
+body
+{
+	font-family: montserrat;
+	background-color: #f1f1f1;
+	width: 100%;
+	margin: 0;
+}
+body p
+{
+	font-size: 18px;
+	font-weight: 300;
+}
+body h2
+{
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+}
+/** debut header**/
+#header
+{
+	height: 75px;
+}
+.box
+{
+	width: auto;
+	height: 75px;
+	background-color: #4a4a4a;
+}
+.round                
+{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 150px;
+	background-color: #4a4a4a;
+	border-radius: 50% / 50%;
+	left: calc(50% - 75px)
+}
+.round img
+{
+	width: 60%;
+	height: 70%;
+}
+/**fin header**/
+/** debut box img**/
+#box-img
+{
+	width: 100%;
+	height: 400px;
+	background-image: url("./img/winter-4792026_1920.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.layout
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(74, 74, 74, 0.5);
+	background-size: cover;
+}
+#box-img h1
+{
+	font-size: 36px;
+	font-weight: 600;;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 0;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-bottom: 0;
+}
+/**fin box img**/
+/**debut part1**/
+
+#part1
+{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.who h2 
+{ 	
+	color: #d4a23d;
+	width: 100%;
+}
+.text p 
+{	
+	text-align: center;
+}
+/**fin part1**/
+/**debut about-us**/
+#about-us
+{
+	background-color: #ffffff;
+}
+#about-us h2
+{
+	padding-top: 59px;
+	padding-bottom: 7px;
+}
+
+/**fin about-us**/
+/**debut frames**/
+#frames
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 200px;
+	margin-right: 50px; 
+	margin-left: 50px;
+}
+.frame
+{	
+	width: 268px;
+	height: 185px;
+	border: solid 1px #979797;
+	background-color: #d8d8d8;
+}
+/**fin frames**/
+
+#way-block
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 27px;
+}
+#way-block a
+{
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.way-to
+{
+	border-left: 18px solid white;
+	border-right: 18px solid white;
+	border-top: 30px solid #d4a23d;
+	background-color: #d4a23d;
+}
+/**fin part1**/
+/**debut nous contacter**/
+#title
+{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#title h2
+{
+	margin-top: 54px;
+	color: #d4a23d;
+}
+
+input 
+{
+	padding-left: 10px;
+	font-size: 17px;
+	outline: none;
+}
+
+textarea
+{
+	padding-left: 10px;
+	font-size: 17px;
+	outline: none;
+}
+.input
+{
+	width: 364px;
+	height: 43px;
+	border-radius: 8px;
+	border: solid 1px #4a4a4a;
+	background-color: #ffffff;
+	margin-top: 5px;
+}
+
+textarea#mess
+{
+	width: 100%;
+	height: 157px;
+	border-radius: 8px;
+	border: solid 1px #4a4a4a;
+	background-color: #ffffff;
+	margin-top: 5px;
+}
+/**fin nous contacter**/
+/**debut footer**/
+footer
+{
+	height: 70px;
+	background-color: #4a4a4a;
+	margin-top: 60px;
+}
+footer p
+{
+	color: #ffffff;
+	padding-top: 25px;
+	padding-left: 50px;
+}
+/**fin footer**/
+/**Pour le titre ( donc le layout ) tu peux meme mettre le double sur chacun pour moins large que le reste de la page encore**/
+@media all and (max-width: 680px)
+{
+	#header
+	{
+		height: 60px;
+	}
+	.box
+	{
+		height: 60px;
+	}
+
+	.round                
+	{
+		width: 100px;
+		height: 100px;
+		border-radius: 50% / 50%;
+		left: calc(50% - 75px);
+		left: 35%;
+	}
+
+	.round img
+	{
+		width: 50px;
+		height: 60px;
+		margin-left: 25%;
+	}
+
+	#box-img h1
+	{	
+		font-size: 32px;
+		margin-top: 20%;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 39px;
+	}
+
+	#box-img
+	{
+		height: 475px;
+		margin-top: 0;
+	}
+
+	.layout
+	{
+		height: 475px;
+	}
+
+	section #part1
+	{
+		padding-left: 0;
+	}
+
+	.who 
+	{
+		width: 100%;
+	}
+
+	#part1
+	{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	#part1 p
+	{
+		padding-left: 25px;
+	}
+	#part1 h2
+	{
+		margin-left: 0;
+	}
+
+	.text p
+	{
+		text-align: left;
+	}
+
+	#about-us
+	{
+		padding: 0;
+		height: 850px;
+	}
+
+	#about-us h2
+	{
+		margin: 0;
+		padding-bottom: 20px;
+	}
+	
+
+	.text p
+	{
+		font-size: 14px;
+		max-width: 100%;
+	}
+
+	#frames
+	{
+		display: flex;
+		flex-direction: column;
+		padding-left: 25px;
+		padding-right: 25px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.frame
+	{	
+		width: 100%;
+		height: 100%;
+		margin-bottom: 10px;
+		flex-shrink: 0;
+	}
+
+	#way-block
+	{
+		margin-top: 440px;
+	}
+
+	#title
+	{
+		width: auto;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	#title h2
+	{
+		margin-top: 49px;
+	}
+
+	#title form
+	{
+		margin-right: 25px; 
+		margin-left: 25px;
+	}
+
+	input#name
+	{
+		width: 100%;
+	}
+
+	input#mail
+	{
+		width: 100%;
+	}
+
+	footer p
+	{
+		text-align: center;
+	}
+}
