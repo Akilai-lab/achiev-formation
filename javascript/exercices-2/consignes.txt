@@ -1,0 +1,7 @@
+1. Une fonction qui prend deux nombre en parametre, les additionnes et retourne le resultat.
+2. Une fonction qui prend deux nombre en parametre, les multiplie et retourne le resultat.
+3. Une fonction qui prend deux strings, les concatene et retourne le resultat.
+4. Une fonction qui renvoie le resultat ed l'operation factorielle du nombre passé en parametre.
+Elle doit être itérative. Son prototype sera `iterative_factorial(nb)`
+5. Une fonction qui renvoie le resultat ed l'operation factorielle du nombre passé en parametre.
+Elle doit être recursive. Son prototype sera `recursive_factorial(nb)`
