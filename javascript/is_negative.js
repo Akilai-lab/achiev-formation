@@ -2,7 +2,7 @@ let is_negative = (number) => {
 	if (number>=0) {
 		console.log("P");
 	} else {
-		console("N");
+		console.log("N");
 	}
 };
 is_negative(9);
