@@ -1,0 +1,24 @@
+1. iterative_power(number, power);
+Écrire une fonction qui retourne une puissance d'un nombre. Si la puissance est inferieur a 0 elle retournera 0
+En javascript il exist la fonction Math.pow, tu n'as pas le droit de l'utiliser pour cet exercice ni pour le suivant, le but est de la recoder
+
+2. recursive_power(number, power);
+Meme exercice en recursive
+
+3. fibonacci(index)
+Ecrire une fonction qui retourne le Neme element de la suite de fibonacci. ( Le premier index etant 0 )
+
+4. sqtr(number)
+Ecrire une fonction qui retourne la racine carré d'un nombre. Tu n'as pas le droit d'utiliser Math.sqrt
+
+5. is_prime(number)
+Ecrire une fonction qui retourne true si le nombre est premier, false sinon
+
+6. next_prime(number)
+Ecrire une fonction qui retourne le premier nombre premier superieur ou egal au nombre passé en parametre
+
+7. capitalize(string)
+Ecrire une fonction qui prend une chaine de charactere en parametre, et retourne cette chaine avec la premiere lettre en majuscule, le reste en minuscule
+
+8. capitalize_word(string)
+Ecrire une fonction qui prend une chaine de charactere en parametre, et retourne cette chaine avec la premiere lettre de chaque mot en majuscule, le reste en minuscule
