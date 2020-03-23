@@ -1,7 +1,8 @@
-let factorielle_iterative = (nb) => {
-  if (i=>1){
-    i=nb*nb*(nb-1);
-  } 
-return nb;
+let factoriel = (nb) => {
+  let numberRef= 1;
+  for (let i=1; i<=nb; i++){
+  numberRef= numberRef*i;
+  console.log(numberRef);
+  }
 };
-factorielle_iterative(10);
+console.log(factoriel(5));
