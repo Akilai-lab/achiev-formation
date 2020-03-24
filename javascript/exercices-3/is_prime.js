@@ -1,5 +1,5 @@
 let is_prime = (number) => {
-  if (number / number){
+  if (number * 1 === number){
     return true;
   } else {
     return false;
