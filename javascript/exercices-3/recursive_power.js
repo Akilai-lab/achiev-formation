@@ -1,6 +1,8 @@
 let recursive_power = (number, power) => {
-  if ( (number * power) < 0 ) {
+  if (power <= 0){
     return 0;
+  } else {
+    return number ** power;
   }
 };
-recursive_power(2, -1);
+console.log(recursive_power(4, 5));
