@@ -1,0 +1,43 @@
+Fonction sum avec paramètre n ,
+retourner la somme des nombres de 1 à n.
+
+1/ Exemples calculés avec toutes les étapes de calcul:
+
+	sum (3)  =>  1 + 2 + 3 = 6 
+		On décompose la valeur de sum et on en fait la somme de la valeur de 1 à 3.
+	
+	sum (5)  =>  1 + 2 + 3 + 4 + 5 = 15
+		On décompose la valeur de sum et on en fait la somme de la valeur de 1 à 5.
+
+	sum (10) =>  1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55
+		On décompose la valeur de sum et on en fait la somme de la valeur de 1 à 55.
+
+2/ 	a/ liste des infos remarquées.
+	
+	 Dans les exemples de calcul, on remarque que la valeur du paramètre de fonction, 
+	on le décompose de 1 à la valeur de ce paramètre. 
+	 Pour sum (3) on a 1 + 2 + 3 
+	qui peux etre simplifier en barre | + || + ||| = le total est 6. 
+	 On remarque aussi que 6 a pour diviseur la valeur de son paramètre(3).
+
+	b/ piste de résolution pour sum(n).
+	
+	  Une fonction qui a une valeur en paramètre n.
+	  Celle-ci superieur ou égale à 1.
+	  Qui doit etre retournée en décomposant la valeur et en ajoutant les uns après 
+	  les autres les chiffres qui la composent. 
+	  Pour ceci nous itererons une valeur qui servira à decomposer la valeur et en faire la somme.
+	  Il serait utile d'y ajouter une autre variable qui servira pour stocker la formule qui se répétera 
+	  pour chaque produit de somme à chaque tour et ce jusqu'à arriver à la valeur n.
+	  
+	 
+3/ Algorithme précis de résolution en français.
+
+	 Pour un nombre n, on doit faire la somme des chiffres de 1 a n.
+	 Pour décomposer la valeur n, il va falloir créer une boucle qui ira de 1 à n.
+	 Créer une variable qui stockera le resultat, la déclarer hors de cette boucle 
+	et lui donner une valeur que l'on pourra modifier par la suite dans la boucle. 
+	 Celle ci servira à faire la somme d'un chiffre avec au autre. 
+	 De cette façon, la variable de résultat servira de lien entre chaque élément 
+	de la boucle et de faire la somme de chacun, 
+	il suffira juste de la retourner en dehors de la boucle pour que l'algorithme se produise.
