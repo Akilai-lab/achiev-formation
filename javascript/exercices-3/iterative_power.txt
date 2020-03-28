@@ -1,0 +1,43 @@
+		1. iterative_power(number, power);
+    Écrire une fonction qui retourne une puissance d'un nombre. 
+        Si la puissance est inferieur a 0 elle retournera 0
+
+
+1/ Exemples calculés avec toutes les étapes de calcul:
+
+	iterative_power (4,3)  =>  4 * 4 * 4 = 64
+		On multiplie le nombre en paramètre par lui même en fonction de la puissance qui lui est attribué.
+	
+	iterative_power (2,4)  =>  2 * 2 * 2 * 2 = 16
+
+		On multiplie le nombre en paramètre par lui même en fonction de la puissance qui lui est attribué.
+	iterative_power (4,4) =>  4 * 4 * 4 * 4 = 256
+
+		On multiplie le nombre en paramètre par lui même en fonction de la puissance qui lui est attribué.
+
+2/ 	a/ liste des infos remarquées.
+	
+	 Dans les exemples de calcul, on remarque que la valeur du paramètre est multipliée par elle même, 
+	donc pour se faire il faut tenir compte de la puissance qui est attribuée.
+	 Par exemple pour iterative_power (4,3) on multiplie 4 par lui même 3 fois. 
+
+	b/ piste de résolution pour iterative_power(number, power).
+	
+	  Une fonction qui a une valeur en paramètre number et un deuxième paramètre sa puissance.
+	  Dans la consigne il est indiqué que si la puissance est infèrieur ou égale à 0,
+	  il faut la retourner 0.
+	  Donc dans cette situation, il faut créer une condition qui si inférieur ou égale à 0, se retourne
+	  0.
+	  Sinon il faudra créer une créer une boucle dans la partie "else" et y faire le calcul de la puissance sur le nombre.
+	  
+	 
+3/ Algorithme précis de résolution en français.
+
+	  Pour un nombre number, on doit le multiplier par lui même tant que l'iteration n'atteindra pas la valeur de sa puissance.
+	 Dans un premier temps, on va iterer la variable i et lui attribuer une valeur de départ de 1, jusqu'à ce que celle-ci atteigne
+	 la valeur attribuée à celle de power, on va la répéter en incrémentant +1 à chaque tour.
+	 Créer une variable qui stockera le resultat, la déclarer hors de cette boucle 
+	et lui donner une valeur que l'on pourra modifier par la suite dans la boucle. 
+	 Celle ci aura pour valeur hors de la boucle 1; et permettra de stocker le resultat à retourner de cette boucle.
+	 on va y multiplier à chaque tour la valeur du nombre à la valeur de la nouvelle variable déclarée. 
+	 Et enfin y retourner hors de la boucle le resultat dans le cas où la puissance est supérieur à 0.
