@@ -1,0 +1,44 @@
+ 					sqtr(number)
+				Ecrire une fonction qui retourne 
+			 	  la racine carré d'un nombre
+
+1/ Exemples calculés avec toutes les étapes de calcul:
+
+	sqrt (9)  =>  3 * 3 = 9 
+		ici, il faut multiplier 3 par 3 pour obtenir le carré qui est paramètre de la fonction
+	
+	sqrt (25)  =>  5 * 5 = 25
+		ici, il faut multiplier 5 par 5 pour obtenir le carré qui est paramètre de la fonction
+
+	sqrt (81) =>  9 * 9 = 81
+		ici, il faut multiplier 9 par 9 pour obtenir le carré qui est paramètre de la fonction
+
+2/ 	a/ liste des infos remarquées.
+	
+	 Dans les exemples de calcul, on remarque que la valeur du paramètre de fonction, 
+	à pour diviseur un nom compris entre 1 et 10.
+	 Pour sqrt (9) on a 3 * 3 qui est diviseur de 9.
+
+	b/ piste de résolution pour sqrt(number).
+	
+	  Une fonction qui a une valeur en paramètre number.
+	  Qui doit etre retournée en multipliant un nombre avec un nombre identique, qui doit être
+	  égal au nombre passé en paramètre. 
+	  Pour ceci nous itererons une valeur qui tant qu'elle sera inférieur se divisera avec le nombre passé
+	  en paramètre.
+	  il faudra aussi créer une condition qui indiquera que si cette valeur multipliée avec elle même
+	  est égale au nombre en paramètre, il faudra retourner une variable .
+	  Celle ci servira à stocker la formule qui s'itéreras à chaque fois que la boucle se répétera.
+	
+	 
+3/ Algorithme précis de résolution en français.
+
+	  En sachant que le paramètre de la fonction est le carré d'une racine carrée, il va falloir dans
+	  un premier temps :
+	  a/ faire un compteur qui commence à 1 et s'arrête à la même valeur que le paramètre de la fonction.
+	  A chaque tour, le compteur se divisera avec la valeur de paramètre.
+	  et cette opération sera stockée dans une variable ici nommée résult qui sera déclarée hors de la 
+	  fonction mais dont la valeur changera dans la boucle.
+	  b/ La variable result sera ensuite comparée au paramètre number dans une condition il
+	  et si celle-ci multipliée à elle-même est strictement égale à la valeur du paramètre, 
+	  retournera la valeur de result.
