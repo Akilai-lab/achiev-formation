@@ -1,0 +1,41 @@
+					 next_prime(number)
+			Ecrire une fonction qui retourne le premier nombre
+ 		      premier superieur ou egal au nombre passé en parametre
+
+
+1/ Exemples calculés avec toutes les étapes de calcul:
+
+	next_prime (9)  =>  ici 9 n'est pas un nombre premier, car divisible par 3 
+			  pour retourner un nombre premier superieur à 12; il faut faire 
+			  l'opération à l'aide du modulo permettant de voir si les 
+			  nombres suivant sont premiers ou non.
+	
+	next_prime (12)  => ici 12 n'est pas un nombre premier, car divisible par 2 et 4
+		         donc pour retourner un nombre premier superieur à 12; il faut 
+			 faire l'opération à l'aide du modulo permettant de voir si les 
+			  nombres suivant sont premiers ou non.
+
+2/ 	a/ liste des infos remarquées.
+	
+	 Dans les exemples de calcul, on remarque que la valeur du paramètre de fonction, 
+	on remarque que ces valeurs sont divisibles par 2,3,5.
+	 Pour next_prime (9) on a 9 / 3 = 3 donc divisible par 3.
+
+	b/ piste de résolution pour next_prime(number).
+	
+	  Une fonction qui a une valeur en paramètre number.
+	  Qui doit s'itérer jusqu'à être un nombre premier. Si elle l'est déjà il n'y a rien à faire
+	  sinon il faudra créer une condition qui indiquera que si cette valeur est un nombre qui 
+	  n'est pas premier continuer à iterer jusq'à ce qu'un nombre supérieur à lui le soit.
+	 
+3/ Algorithme précis de résolution en français.
+
+	  En sachant que le paramètre de la fonction peux être ou non un nombre premier, il va falloir dans
+	  un premier temps :
+	  a/ faire un compteur qui commencera à la valeur de number et qui ne s'arrêtera qu'une fois
+	  que nous obtiendrons un nombre premier.
+	  b/ je décide donc d'insérer dans la boucle une condition qui précise que tant que dans la 
+	  valeur i sera égale au produit d'un nombre divisible comme 2 , 3 ou 5; cela ne retournera
+	  que la valeur actuelle de i dans la boucle et continuera à se répèter.
+	  Une fois que les conditions réunies dans if ne seront plus réunies alors on retournera 
+	  la valeur i, et en petit plus je précise en console "nombre premier".
