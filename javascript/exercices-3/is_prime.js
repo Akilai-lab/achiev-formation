@@ -1,8 +1,10 @@
-let is_prime = (number) => {
-  if (number * 1 === number){
-    return true;
-  } else {
-    return false;
+let is_prime = ( number ) => {
+  for (let i = 2; i < number; i++){
+       if( number%i === 0){
+      return false;
+    } else {
+      return true;
+    }
   }
-};
-console.log(is_prime(23));
+}
+is_prime(11);
