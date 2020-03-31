@@ -1,0 +1,41 @@
+						 is_prime(number)
+					Ecrire une fonction qui retourne true 
+					si le nombre est premier, false sinon.
+
+1/ Exemples calculés avec toutes les étapes de calcul:
+
+	is_prime (7)  =>  7 / 1= 7;
+			  7 / 7= 1; 
+		ici, on ne peux diviser 7 que par 1 ou lui même
+	
+	is_prime (9)  =>  9/1 ; 9/2 ; 9/3
+		ici, on peux diviser 9 par 3 par 1 ou par lui même
+	is_prime (10) =>  10/1 ; 10/2 
+		ici, on peux diviser 10 par 2 par 5 par 1 ou par lui même
+
+2/ 	a/ liste des infos remarquées.
+	
+	 Dans les exemples de calcul, on remarque que la valeur du paramètre de fonction, 
+	à pour diviseur un nom compris entre 1 et number.
+	 Pour is_prime (9) on a 9 = 3 * 3 donc divisible par 3.
+
+	b/ piste de résolution pour is_prime(number).
+	
+	  Une fonction qui a une valeur en paramètre number.
+	  Qui doit etre retournée true si un nombre à juste 2 diviseurs, 1 et lui même.
+	  Pour ceci nous itererons une valeur qui débutera à 2 et qui tant qu'elle sera inférieur 
+	  à la valeur du nombre verifiera si un autre nombre positif que 1 ou la valeur du nombre 
+	  lui est divisible.
+	  Il faudra aussi créer une condition qui indiquera que si cette valeur est un nombre n'est pas premier
+	  retournera false; sinon true.
+	
+	 
+3/ Algorithme précis de résolution en français.
+
+	  En sachant que le paramètre de la fonction peux être ou non un nombre premier, il va falloir dans
+	  un premier temps :
+	  a/ faire un compteur qui commence à 2 et s'arrêtera une fois la valeur inférieur
+	  à celle passée en paramètre.
+	  b/ pour que l'opération retourne true si le nombre est premier ou false;
+	  A chaque tour, le compteur divisera le nombre avec le compteur pour voir si le nombre est divisible 
+	  par un nombre compris dans l'interval de i au nombre.
