@@ -1,9 +1,11 @@
-let iterative_power = (number, power) => {
-  for (let i = 0; i <= power; i++){
-    power = number * i ;
-  }
-  if ( power < 0 ){
-    return 0;
-  }
+let iterative_power = (number, power) =>{
+	let result = " ";
+	if (power < 0){
+		return 0;
+	}
+	for (let i = 1; i <= power; i++){
+		result = power * i;
+	}
+  return result;
 };
-iterative_power(2, -1);
+iterative_power(4, 5);
