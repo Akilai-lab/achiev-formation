@@ -1,9 +1,19 @@
-let next_prime = (number) => {
-	for (let i = number; i => number; i++){
-    	if(i % 2 === 0 || i % 3 === 0 || i % 5 === 0){ 
-    	} else {
-      		return i;
-    	}
-  	}
+let is_prime = (number) => {
+  let result = 0;
+  for (let i = 2; i < number; i++) {
+    result = number % i;
+    if (result == 0) {
+      return false;
+    }
+  }
+  return true;
 }
-next_prime(20);
+
+let next_prime = (number) => {
+    for (let i = number; i >= number; i++){
+      if (is_prime(i)){ 
+        return i;
+    	  } 
+    }
+}
+next_prime(14);
