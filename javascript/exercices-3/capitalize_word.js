@@ -1,5 +1,6 @@
 let capitalize_word = (string) => {
-  let first= string[0].toUpperCase()+string.substring(1,(3))+string[3].toUpperCase()+string.substring(4,(14));
-return first
+  return string.split (" ").map(function(chaine) {
+    return chaine.charAt(0).toUpperCase() + chaine.slice(1).toLowerCase();
+  }).join(" ");
 }
-capitalize_word("le coronavirus");
+capitalize_word("la plantation de haricots");
