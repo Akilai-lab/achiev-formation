@@ -18,24 +18,21 @@
 	ici on change le style de chaque premier caractère de la chaine.
 	Cad l'indice en [0]; puis en [6]; et enfin en [9].
 
-2/ piste de résolution pour capitalize(string).
+2/ piste de résolution pour capitalize_word(string).
 	
-	  Une fonction qui a une chaine en paramètre string.
-	  Pour retourner cette fonction, il va falloir créer une variable qui stockera les données à retourner.
-	  je les concaténe pour éviter des répétitions et pour que le résultat soit comme désiré, cas en reprenant l'exemple de
-	  capitalize (la charte graphique) => "La Charte Graphique".
-	  J'utiliserai donc toUpperCase pour mettre en majuscule la chaine mais un soucis apparait, toutes les lettres 
-	  sont en majuscules. 
-	  J'ai donc chercher un moyen de mettre le reste des lettres en minuscules. Ici j'utiliserai donc .substring.
+	  Ce que l'on sait c'est que cette fonction a pour valeur une chaine de caractères. Une phrase ou un ensemble de mots.
+	  Il faut donc tout d'abord individualiser chaque mot et pour celà transformer la chaine de caractère en tableau où chaque mots
+	  vont être séparés les uns des autres.
+	  Et sur lesquels on va modifier le premier caractère de chacun pour la première lettre de chaque mot soit une majuscule.
 	 
 3/ Algorithme précis de résolution en français.
 
 	  On déclare une fonction qui a comme paramètre un string.
-	  Puis une variable nommée first (pour indiquer que l'effet sera effectif sur la première lettre de chaque mot placé en string.)
-	  Dans cette variable, on va relier le paramètre à .toUpperCase, et signifier entre crochet qu'il s'agit de la 
-	  première lettre du mot avec un indice 0. 
-	  Ensuite on concaténe avec le symbole + au reste de la valeur de first; on y ajoute alors le paramètre à substring
-	  (qui permet de garder la forme d'origine les lettres suivantes cad en minuscules) avec entre parenthèses la valeur
-	  1 correspondant à la deuxième lettre du mot jusqu'à y intégrer toutes les lettres dans une deuxième parenthèse.
-	  Et répéter autant de fois que nécessaire.
-	  Puis retourner la variable first pour executer le code de la fonction.
+	  Ensuite on va retourner la chaine de caractères en tableau, et créer une autre fonction nommée chaine pour les sous chaine.
+	  Donc chaque sous chaine aura pour même fonction "chaine".
+	  ensuite on va au sein de cette chaine attribuer des propriétés pour chaque chaine et donc pour chaque premier indice de caractères
+	  indiquer que chaque premier caractère sera une majuscule et que les caractères suivant seront en minuscules. 
+	  Il faudra également indiquer que les minuscules commenceront au deuxième caractère c'est à dire celui ayant comme indice 1 sachant que
+	  0 est l'indice du premier caractère.
+	  Une fois ceci fait, il va falloir remodifier notre chaine de caractère en précisant qu'entre chaque sous chaine, des espacement seront
+	  présents, de manière à ce que la phrase soit à nouveau une chaine de caractère et non un tableau.
